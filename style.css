@@ -1,0 +1,33 @@
+
+body{
+   
+    background-color: rgb(93, 161, 163);
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border: solid 10px rgb(60, 68, 139);
+}
+
+button{
+    width: 80px;
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(51, 75, 143);
+    color: rgb(255, 255, 255);
+}
+
+img{
+    width: 200px;
+}
+
+h1,h2{
+    font-family: Tahoma, sans-serif;
+}
