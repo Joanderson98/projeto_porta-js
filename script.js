@@ -1,3 +1,4 @@
+
 let destrancar = document.getElementById("destrancar")
 let abrir = document.getElementById("abrir")
 let fechar = document.getElementById("fechar")
@@ -15,14 +16,14 @@ function portA(){
     return porta.src.indexOf('aberta') > -1
 }
 function portT(){
-    return porta.src.indexOf('trancada') > -1
+    return porta.src.indexOf('trancada') < 0
 }
 
 
 
 
 function destrancarP(){
-    if(portT()){
+    if(!portT()){
     porta.src = './img/destrancada.jpg'
     }
 }
